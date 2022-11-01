@@ -1,0 +1,42 @@
+section {
+  margin-bottom: 50px;
+}
+
+.header {
+  display: flex;
+  align-items: center; 
+  justify-content: left;
+  width: 100%;
+}
+
+.header div {
+  width: 50%;
+}
+
+.header h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.text-wrapper .left {
+  width: 50%;
+  margin-right: 20px;
+  margin-top: -25px;
+}
+.text-wrapper .right {
+  width: 50%;
+}
+
+.text-wrapper p {
+  color: #9C9C9C;
+  font-size: 18px;
+}
+

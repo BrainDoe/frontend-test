@@ -1,0 +1,38 @@
+section {
+  margin: 50px 0;
+  background-color: #2C3878;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.wrapper .left, .right {
+  width: 50%;
+}
+
+.wrapper .left h5 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.wrapper .right p {
+  color: #D9D9D9;
+  font-size: 18px;
+}
+
+.wrapper .right a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333333;
+  background-color: #ffffff;
+  padding: 14px 20px;
+  margin: 20px 0;
+  cursor: pointer;
+}
