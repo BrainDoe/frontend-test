@@ -1,0 +1,45 @@
+section {
+  margin: 50px 0;
+}
+
+.intro h2 {
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro div {
+  max-width: 50%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.intro .intro-text {
+  font-size: 18px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.intro-banner img {
+  max-width: 100%;
+}
+
+
+/* MOBILE VIEW */
+@media (max-width: 700px) {
+  .intro div {
+    max-width: 100%;
+  }
+
+  .intro h2{
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+}
