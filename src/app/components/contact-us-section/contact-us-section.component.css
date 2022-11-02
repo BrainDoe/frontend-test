@@ -5,14 +5,13 @@ section {
 
 .wrapper {
   display: flex;
-  align-items: center;
   justify-content: center;
   width: 100%;
   padding: 20px 0;
 }
 
 .wrapper .left, .right {
-  width: 50%;
+  flex: 1;
 }
 
 .wrapper .left h5 {
@@ -35,4 +34,17 @@ section {
   padding: 14px 20px;
   margin: 20px 0;
   cursor: pointer;
+}
+
+
+/* MOBILE VIEW*/
+@media screen and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wrapper .left {
+    margin-bottom: 50px;
+  }
 }
