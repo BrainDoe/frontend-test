@@ -6,6 +6,10 @@
   font-family: 'Poppins', sans-serif;;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   background-color: #ffffff;
 }
@@ -14,12 +18,12 @@ a {
   text-decoration: none;
 }
 
-ul {
-  list-style: none;
+section {
+  margin: 5rem 0;
 }
 
 .container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 120rem;
   margin: 0 auto;
 }

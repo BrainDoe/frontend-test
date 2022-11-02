@@ -1,12 +1,8 @@
-section {
-  margin-bottom: 50px 0;
-}
-
 .text-wrapper .left h3,
 .text-wrapper .right h3 {
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .text-wrapper {
@@ -15,7 +11,7 @@ section {
 }
 
 .text-wrapper .left {
-  margin-right: 20px;
+  margin-right: 2rem;
   flex: 1;
 }
 
@@ -25,31 +21,31 @@ section {
 
 .text-wrapper p {
   color: #9C9C9C;
-  font-size: 18px;
+  font-size: 1.8rem;
   text-align: justify;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 
 .text-wrapper .left div .date{
   color: #9C9C9C;
-  font-size: 18px;
-  margin-right: 50px;
+  font-size: 1.8rem;
+  margin-right: 5rem;
 }
 
 .text-wrapper .left div .text{
   color: #9C9C9C;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 
 /* MOBILE VIEW */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 76.8rem) {
   .text-wrapper {
     flex-direction: column;
   }
 
   .text-wrapper .left {
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
   }
 
   .text-wrapper .left h3,

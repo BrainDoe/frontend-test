@@ -1,22 +1,18 @@
-section {
-  margin: 50px 0;
-}
-
 .intro h2 {
-  font-size: 56px;
+  font-size: 5.6rem;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .intro div {
   max-width: 50%;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .intro .intro-text {
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .intro {
@@ -32,13 +28,13 @@ section {
 
 
 /* MOBILE VIEW */
-@media (max-width: 700px) {
+@media (max-width: 70rem) {
   .intro div {
     max-width: 100%;
   }
 
   .intro h2{
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 700;
   }
 
