@@ -8,6 +8,7 @@ import { HeroSectionComponent } from './components/hero-section/hero-section.com
 import { ProjectOverviewSectionComponent } from './components/project-overview-section/project-overview-section.component';
 import { ProjectOverviewSectionGalleryComponent } from './components/project-overview-section-gallery/project-overview-section-gallery.component';
 import { ContactUsSectionComponent } from './components/contact-us-section/contact-us-section.component';
+import { FooterSectionComponent } from './components/footer-section/footer-section.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContactUsSectionComponent } from './components/contact-us-section/conta
     HeroSectionComponent,
     ProjectOverviewSectionComponent,
     ProjectOverviewSectionGalleryComponent,
-    ContactUsSectionComponent
+    ContactUsSectionComponent,
+    FooterSectionComponent
   ],
   imports: [
     BrowserModule,
