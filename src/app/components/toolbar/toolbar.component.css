@@ -71,7 +71,7 @@ nav .list .list-item a {
 
   .burger .line{
     height: 3px;
-    background-color: #fff;
+    background-color: #333333;
     transition: background-color .4s ease;
     margin-bottom: .4rem;
   }
@@ -96,14 +96,14 @@ nav .list .list-item a {
 
   .toggle .line1{
     width: 28px;
-    transform: rotate(45deg) translate(-4px);
+    transform: rotate(45deg) translate(-.4rem);
     transform-origin: left;
   }
   .toggle .line2{
     opacity: 0;
   }
   .toggle .line3{
-    width: 2.8re,;
+    width: 2.8rem;
     transform: rotate(-45deg) translate(-.4rem);
     transform-origin: left;
   }

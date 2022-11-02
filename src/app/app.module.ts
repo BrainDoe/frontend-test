@@ -9,6 +9,7 @@ import { ProjectOverviewSectionComponent } from './components/project-overview-s
 import { ProjectOverviewSectionGalleryComponent } from './components/project-overview-section-gallery/project-overview-section-gallery.component';
 import { ContactUsSectionComponent } from './components/contact-us-section/contact-us-section.component';
 import { FooterSectionComponent } from './components/footer-section/footer-section.component';
+import { SideNavComponent } from './components/side-nav/side-nav.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterSectionComponent } from './components/footer-section/footer-secti
     ProjectOverviewSectionComponent,
     ProjectOverviewSectionGalleryComponent,
     ContactUsSectionComponent,
-    FooterSectionComponent
+    FooterSectionComponent,
+    SideNavComponent
   ],
   imports: [
     BrowserModule,

@@ -13,7 +13,7 @@
           <a routerLink="/contact">Contact Us</a>
         </div>
       </ul>
-      <div class="burger">
+      <div class="burger" [ngClass]="{'toggle': sideNav}" (click)="toggleSidenav()">
         <div class="line line1"></div>
         <div class="line line2"></div>
         <div class="line line3"></div>

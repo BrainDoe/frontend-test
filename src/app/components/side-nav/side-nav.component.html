@@ -1,0 +1,11 @@
+<nav *ngIf="showSideNav" class="nav">
+  <ul class="nav-list">
+    <li><a (click)="closeSideNav()">Home</a></li>
+    <li><a (click)="closeSideNav()">About Us</a></li>
+    <li><a (click)="closeSideNav()">Services</a></li>
+    <li><a (click)="closeSideNav()">Our Team</a></li>
+    <div class="contact-us">
+      <a routerLink="/contact">Contact Us</a>
+    </div>
+  </ul>
+</nav>

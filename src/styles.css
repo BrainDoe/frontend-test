@@ -27,3 +27,11 @@ section {
   max-width: 120rem;
   margin: 0 auto;
 }
+
+
+/* MOBILE VIEW */
+@media screen and (max-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+}
